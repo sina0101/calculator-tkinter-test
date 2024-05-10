@@ -4,23 +4,23 @@ win1=tkinter.Tk()
 win1.geometry('700x500')
 
 def def1():
-    x=int(en1.get())
-    y=int(en2.get())
+    x=float(en1.get())
+    y=float(en2.get())
     tkinter.messagebox.showinfo(f'x+y={x+y}')
 
 def def2():
-    x=int(en1.get())
-    y=int(en2.get())    
+    x=float(en1.get())
+    y=float(en2.get())    
     tkinter.messagebox.showinfo(f'x-y={x-y}')
 
 def def3():
-    x=int(en1.get())
-    y=int(en2.get())
+    x=float(en1.get())
+    y=float(en2.get())
     tkinter.messagebox.showinfo(f'x*y={x*y}')
 
 def def4():
-    x=int(en1.get())
-    y=int(en2.get())
+    x=float(en1.get())
+    y=float(en2.get())
     if y==0:
         tkinter.messagebox.showerror('heyy! y=0 !')
 
